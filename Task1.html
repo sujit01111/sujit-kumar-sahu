@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Our Stunning Landing Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Home</h2>
+                <p>Welcome to our beautiful landing page. Enjoy the journey through our services and offerings.</p>
+                <img src="resized-image-Promo (1).jpeg" alt="Home Image">
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are committed to providing the best service for our customers. Learn more about our mission and values.</p>
+                <img src="resized-image-Promo.jpeg" alt="About Image">
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p>Explore the wide range of services we offer. We are here to serve you.</p>
+                <div class="services">
+                    <div class="service">
+                        <img src="resized-image-Promo (2).jpeg" alt="Service 1">
+                        <h3>Service 1</h3>
+                        <p>Details about service 1.</p>
+                    </div>
+                    <div class="service">
+                        <img src="resized-image-Promo (3).jpeg" alt="Service 2">
+                        <h3>Service 2</h3>
+                        <p>Details about service 2.</p>
+                    </div>
+                    <div class="service">
+                        <img src="resized-image-Promo (4).jpeg" alt="Service 3">
+                        <h3>Service 3</h3>
+                        <p>Details about service 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>We would love to hear from you. Fill out the form below to get in touch.</p>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Stunning Landing Page. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
